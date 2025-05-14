@@ -1,0 +1,45 @@
+# 🚫 Ignore the entire data folder
+data/
+
+# 🚫 Ignore everything in fl_tinybert EXCEPT what you specify
+fl_tinybert/*
+!fl_tinybert/client.py
+!fl_tinybert/infer_only.py
+!fl_tinybert/server.py
+!fl_tinybert/results/
+!fl_tinybert/fl_tinybert/
+
+
+
+
+# 🚫 Ignore everything in notebooks EXCEPT specific notebooks
+notebooks/tinybert_output/
+notebooks/tinybert_output_client1/
+notebooks/untitled.ipynb
+
+
+# ✅ Include everything in results and saved_models
+
+# 🚫 Ignore entire .ipynb_checkpoints
+.ipynb_checkpoints/
+
+# 🚫 Ignore the src folder completely
+src/
+
+# 🚫 Ignore common large file types
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.onnx
+*.pb
+*.tar.gz
+*.zip
+*.log
+*.npy
+*.pkl
+*.csv
+
+# 🚫 Ignore system junk
+.DS_Store
+Thumbs.db
